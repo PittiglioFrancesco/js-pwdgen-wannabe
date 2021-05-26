@@ -12,4 +12,4 @@ console.log(colore)
 // operazioni
 
 var risultato = nome + cognome + colore + '79';
-alert(risultato);
+document.getElementById("testo").innerHTML = risultato;
